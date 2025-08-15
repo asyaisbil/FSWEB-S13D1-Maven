@@ -66,9 +66,7 @@ public class Main {
        if(radius < 0){
            return -1;
        } else {
-           double result = radius*radius*Math.PI;
-           result = Math.round(result * 100000.0) / 100000.0;
-           return result;
+           return radius*radius*Math.PI;
        }
     }
 }
